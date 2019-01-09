@@ -2,13 +2,14 @@
 =================================================
 
 ## Project Name
-
+Express API Server
 ### Author: Student/Group Name
+Hannah Ingham and Jon DiQuatrro
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
+* [repo](https://github.com/jondiquattro/12-express/pull/1)
+* [travis](https://www.travis-ci.com/jondiquattro/12-express)
+* [heroku](heroku.com/lab-12-diquattro.git)
 * [front-end](http://xyz.com)
 
 ### Modules
