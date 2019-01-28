@@ -7,37 +7,38 @@ Express API Server
 Hannah Ingham and Jon DiQuatrro
 
 ### Links and Resources
-* [repo](https://github.com/jondiquattro/12-express/pull/1)
+* [repo](https://github.com/jondiquattro/12-express/pull/3)
 * [travis](https://www.travis-ci.com/jondiquattro/12-express)
-* [heroku](heroku.com/lab-12-diquattro.git)
-* [front-end](http://xyz.com)
+* [heroku](https://lab-12-diquattro.herokuapp.com/)
+
 
 ### Modules
 #### `modulename.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
+* `PORT` - 30000
 * `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `http :3000/`
+  * returns everything in the products table
+* Endpoint: `http :3000/products/id (should be the actual id of the item you are trying to pull`
+  * Returns a single object as specified by the id
+* Endpoint: `http post :3000/products`
+  * posts an object to the products table
+* Endpoint: `http put :3000/products/id (should be the actual id of a record)`
+  * updates the item
+* Endpoint: `http delete :3000/products/id (should be the actual id of a record)`
+  * Deletes the item specified
 
 #### Tests
 * How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+    cd into the test file and run npm test
+* The error routes are tested
+* The correct results are tested
 
-#### UML
-Link to an image of the UML for your application and response to events
+
+
